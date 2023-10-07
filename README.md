@@ -9,9 +9,6 @@
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -81,7 +78,7 @@ Example commands:
 
 - GitHub: [Joy](https://github.com/JoyTaribagshaw)
 - Twitter: [Joy](https://twitter.com/JoyTariBagshaw)
-- LinkedIn: [Joy](www.linkedin.com/in/joytaribagshaw)
+- LinkedIn: [Joy](https://www.linkedin.com/in/joytaribagshaw/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
