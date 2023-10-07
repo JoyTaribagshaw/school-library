@@ -1,4 +1,3 @@
-# class for person
 class Person
   attr_accessor :name, :age
   attr_reader :id
@@ -18,6 +17,10 @@ class Person
     false
   end
 
+  def person_of_age?
+    of_age?
+  end
+
   def can_use_services?
     return true if @age >= 18 || @parent_permission
 
@@ -28,5 +31,5 @@ end
 person1 = Person.new(34, 'Joy')
 puts person1.name
 puts person1.name = 'Peter'
-puts person1.of_age?
+puts person1.is_person_of_age?
 puts person1.can_use_services?
