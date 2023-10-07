@@ -1,15 +1,20 @@
+require_relative 'person'
+
+# class for student
 class Student < Person
-  def initialize(name = "Unknown", age = 0, parent_permission = true, classroom)
-    super(name, age, parent_permission)
+  attr_accessor :classroom
+
+  def initialize(age, classroom, name = 'unknown')
+    super(age, name)
     @classroom = classroom
   end
 
-  def play_hooky
-    "¯\\(ツ)/¯"
+  def play_hooky?
+    '¯\(ツ)/¯'
   end
 end
 
-student = Student.new("Alice", 16, true, "Physics")
+student = Student.new('Alice', 16, true, 'Physics')
 puts "Student ID: #{student.id}"
 puts "Name: #{student.name}"
 puts "Age: #{student.age}"
